@@ -1,11 +1,13 @@
-class P1{
+class P1 {
     public static void main (String[] args){
-        System.out.println("Monday");
-        System.out.print("Tuesday");
-        System.out.println("Wednesday");
-        System.out.println("Thursday");
-        System.out.print("Friday");
-        System.out.println("Saturday");
-        System.out.println("Sunday");
+       int num = 25;
+       if(num>0){
+        System.out.println("Positive");
+           }else if (num == 0){
+            System.out.println("Zero");
+           }else
+            {
+            System.out.println("Negative");
+           }
     }
 }

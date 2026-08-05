@@ -1,3 +1,4 @@
+package Practice;
 class P1 {
     public static void main (String[] args){
        int num = 0;

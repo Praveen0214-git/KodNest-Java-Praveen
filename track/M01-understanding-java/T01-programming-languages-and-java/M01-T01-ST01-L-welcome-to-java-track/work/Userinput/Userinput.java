@@ -32,6 +32,16 @@ public class Userinput {
     System.out.print("Enter a boolean Value: ");
     boolean g = scn.nextBoolean();
     System.out.println("boolean value is:"+g);
+
+    System.out.println("Enter your Name: ");
+    String m = scn.next();
+    System.out.println(" Your Name is: "+m);
+
+      scn.nextLine();
+     System.out.print("Enter your Name: ");
+     String s = scn.nextLine();
+     System.out.println("Your Name is: "+s);
+
       scn.close();
    }
 }

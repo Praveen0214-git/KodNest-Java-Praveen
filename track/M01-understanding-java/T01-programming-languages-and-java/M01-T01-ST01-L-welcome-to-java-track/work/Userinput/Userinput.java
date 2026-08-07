@@ -42,6 +42,10 @@ public class Userinput {
      String s = scn.nextLine();
      System.out.println("Your Name is: "+s);
 
+     System.out.print("Enter char: ");
+     char ch = scn.next().charAt(2);
+     System.out.println(ch);
+
       scn.close();
    }
 }
